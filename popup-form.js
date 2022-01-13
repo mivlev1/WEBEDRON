@@ -3,7 +3,8 @@
 const {Formik,Field,Form} = window.Formik;
 const {createSlice,configureStore} = window.RTK;
 const {combineReducers} = window.Redux;
-const {Provider,connect} = window.ReactRedux;
+const {Provider,connect
+} = window.ReactRedux;
 const callFormSlice = createSlice({
   name: 'callForm',
   initialState: "",
@@ -99,11 +100,12 @@ class MainForm extends React.Component {
       className: "checkbox-text"
     }, "\u041E\u0442\u043F\u0440\u0430\u0432\u043B\u044F\u044F \u0437\u0430\u044F\u0432\u043A\u0443, \u044F \u0434\u0430\u044E \u0441\u043E\u0433\u043B\u0430\u0441\u0438\u0435 \u043D\u0430 ", /*#__PURE__*/React.createElement("a", {
       href: ""
-    }, "\u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0443 \u0441\u0432\u043E\u0438\u0445 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0445 \u0434\u0430\u043D\u043D\u044B\u0445"), "."))),  /*#__PURE__*/React.createElement("button", {
+    }, "\u043E\u0431\u0440\u0430\u0431\u043E\u0442\u043A\u0443 \u0441\u0432\u043E\u0438\u0445 \u043F\u0435\u0440\u0441\u043E\u043D\u0430\u043B\u044C\u043D\u044B\u0445 \u0434\u0430\u043D\u043D\u044B\u0445"), "."))), /*#__PURE__*/React.createElement("button", {
       type: "submit",
       disabled: isSubmitting
     }, "\u041E\u0422\u041F\u0420\u0410\u0412\u0418\u0422\u042C"))));
   }
+
 }
 
 class ModalWindow extends React.Component {
